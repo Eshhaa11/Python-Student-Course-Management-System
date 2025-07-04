@@ -32,3 +32,19 @@ for student in session.query(Student).all():
 print("\nCourses:")
 for course in session.query(Course).all():
     print(course)
+
+from linkedlist.history import CourseHistory
+
+# Create course history for Alice
+alice_history = CourseHistory()
+
+
+alice_history.add_course("Python Basics")
+alice_history.add_course("Data Structures")
+alice_history.add_course("Databases")
+
+
+print("\nEsha's Course History:")
+for course in alice_history.get_history():
+    print(course)
+
