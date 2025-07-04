@@ -6,7 +6,7 @@ from linkedlist.history import CourseHistory
 class TestStudentCourseSystem(unittest.TestCase):
 
     def test_student_creation(self):
-        student = Student(name="Esha Patel", email="john@example.com")
+        student = Student(name="Esha Patel", email="eshaptl1212@gmail.com")
         self.assertEqual(student.name, "John Doe")
         self.assertEqual(student.email, "john@example.com")
 
